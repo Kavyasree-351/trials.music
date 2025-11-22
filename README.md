@@ -16,7 +16,7 @@ It is a fun blend of **music theory, programming, and visualization**, ideal for
 
 ---
 
-## 📁 Files
+## 3 parts in one file
 ### `part1_midi_raga.py`
 - Generates random avartanas (8-note sequences).  
 - Shows tala beat visualization using **Matplotlib**.  
@@ -38,6 +38,6 @@ It is a fun blend of **music theory, programming, and visualization**, ideal for
 ## 🔧 Installation
 1. Clone the repository:
 ```bash
-git clone <repository-url>
-cd <repository-folder>
+git clone <https://github.com/Kavyasree-351/trials.music.git>
+
 
