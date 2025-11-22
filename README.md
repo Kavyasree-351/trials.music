@@ -1,40 +1,53 @@
-# trials.music
- Carnatic Raga Tala Visualizer with Audio – Mayamalavagowla Edition This is a basic interactive project I tried out in Google Colab to explore how technology and Carnatic music can come together. It generates random swara patterns (notes) in the Mayamalavagowla raga, and visualizes them in sync with the Adi Tala (8-beat cycle). 
+# 🎶 Carnatic Raga Generator & Sarali Player
+**Author:** Kavya  
 
-# 🎵 Raga Generator & Swara Player (MIDI + Audio + Tala Animation)
+This project is an **interactive Carnatic music tool** built in Python (Google Colab compatible). It generates **random swara patterns** in the **Mayamalavagowla raga**, visualizes them with **Adi Tala (8-beat cycle)**, and allows playback via **audio synthesis and MIDI files**.  
 
-This repository contains 3 Python programs that:
-- Generate Carnatic swaras in Maya Mālava Gowla
-- Create MIDI files from random avartanas
-- Animate Ādi Tāla with live swara playback
-- Play Sarali patterns with sine-wave tone synthesis
+It is a fun blend of **music theory, programming, and visualization**, ideal for learners and enthusiasts of Carnatic music.
+
+---
+
+## 📋 Table of Contents
+1. [Features](#features)
+2. [Files](#files)
+3. [Installation](#installation)
+4. [Usage](#usage)
+5. [Details of Each Script](#details-of-each-script)
+6. [Demo](#demo)
+7. [Notes](#notes)
+
+---
+
+## 🎵 Features
+- Generate **random swaras** in Mayamalavagowla raga.  
+- Create **MIDI files** for practice and playback.  
+- Animate **Adi Tala** beat cycles with live swara playback.  
+- Play **Sarali Varisai patterns** using sine-wave synthesis.  
+- Visualize tala and swara patterns with **Matplotlib**.
+
+---
 
 ## 📁 Files
-
 ### `part1_midi_raga.py`
-✔ Generates random avartanas  
-✔ Shows Tala beat visualization (matplotlib)  
-✔ Creates and saves a MIDI file  
-
----
+- Generates random avartanas (8-note sequences).  
+- Shows tala beat visualization using **Matplotlib**.  
+- Creates and saves a **MIDI file** for playback.
 
 ### `part2_tala_loop.py`
-✔ Animated Adi Tala beat loop  
-✔ Swaras play automatically  
-✔ Generates new avartana each cycle
-
----
+- Animates **Adi Tala (8-beat cycle)** in real-time.  
+- Plays swaras **automatically** as each beat is highlighted.  
+- Generates a **new avartana** after each cycle.
 
 ### `part3_sarali_player.py`
-✔ Plays Sarali patterns  
-✔ Pure sine-wave synthesis  
-✔ Simple swara player
+- Plays **Sarali Varisai patterns**.  
+- Uses **pure sine-wave synthesis** for audio.  
+- Simple sequential swara player for practice.
 
 ---
 
 ## 🔧 Installation
-
-Install dependencies:
-
+1. Clone the repository:
 ```bash
-pip install -r requirements.txt
+git clone <repository-url>
+cd <repository-folder>
+
