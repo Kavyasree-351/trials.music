@@ -7,17 +7,6 @@ It is a fun blend of **music theory, programming, and visualization**, ideal for
 
 ---
 
-## 📋 Table of Contents
-1. [Features](#features)
-2. [Files](#files)
-3. [Installation](#installation)
-4. [Usage](#usage)
-5. [Details of Each Script](#details-of-each-script)
-6. [Demo](#demo)
-7. [Notes](#notes)
-
----
-
 ## 🎵 Features
 - Generate **random swaras** in Mayamalavagowla raga.  
 - Create **MIDI files** for practice and playback.  
@@ -43,6 +32,7 @@ It is a fun blend of **music theory, programming, and visualization**, ideal for
 - Uses **pure sine-wave synthesis** for audio.  
 - Simple sequential swara player for practice.
 
+#all files are names in the single colab file itself
 ---
 
 ## 🔧 Installation
